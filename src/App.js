@@ -25,7 +25,7 @@ function App() {
         </div>
       </header>
       <hr />
-      <div className="App">
+      <div className="Card">
         <Card />
       </div>
       <h2 className="name">I'm {name}</h2>
