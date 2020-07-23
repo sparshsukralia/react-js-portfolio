@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "./components/Cards";
 import Coding from "./components/Coding.png";
 import "./App.css";
 
@@ -25,15 +24,18 @@ function App() {
         </div>
       </header>
       <hr />
-      <div className="Card">
-        <Card />
+      <div className="heading">
+        <h1>Hello World!</h1>
       </div>
       <h2 className="name">I'm {name}</h2>
       <div className="content">
         <img src={Coding} alt="" />
-        <h2>
-          Aspiring <div className="color-web">Web Developer</div>
-        </h2>
+        <div className="image-content">
+          <h2>A Fulltime </h2>
+          <div className="webdev">
+            <h2>Web Developer</h2>
+          </div>
+        </div>
       </div>
     </div>
   );
