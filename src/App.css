@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header h2 {
+  font-weight: 100;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.name-color {
+  color: rgb(65, 93, 214);
+}
+
+.end-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-content {
+  margin: 0 0.5em;
+  font-weight: bolder;
+}
+
+img {
+  width: 250px;
+  margin-left: 1rem;
+}
+
+.color-web {
+  color: rgb(240, 60, 60);
+}
+
+.name {
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 3px;
+  margin: 2rem 0;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  color: rgb(54, 54, 54);
+  background: rgb(216, 216, 216);
+  margin-bottom: 2rem;
+}
+
+.content h2 {
+  font-size: 3.5rem;
+  color: rgb(87, 87, 87);
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
